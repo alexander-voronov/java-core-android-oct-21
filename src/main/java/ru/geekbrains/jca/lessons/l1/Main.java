@@ -7,7 +7,7 @@ public class Main {
         methodTree(-2);
         methodFour(-5);
         methodFive("Andrey");
-        methodSix(800);
+        methodSix(704);
     }
 
     public static float methodOne(float a, float b, float c, float d) {
@@ -16,7 +16,7 @@ public class Main {
 
     public static boolean methodTwo(int a, int b) {
         int c = a + b;
-        if (c >= 10 || c <= 20) {
+        if (c >= 10 && c <= 20) {
             return true;
         }
         return false;
