@@ -17,7 +17,6 @@ public class Main {
             for (Obstacle b : obstacles) {
                 if (!b.overcome(a)) break;
             }
-
         }
     }
 }
